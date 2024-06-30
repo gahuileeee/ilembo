@@ -13,6 +13,10 @@
 ### 사용한 기술
 Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS, 
 
+### ERD
+![image](https://github.com/gahuileeee/ilembo/assets/141610403/a78d87e1-4f03-4327-a17a-156332b4921e)
+
+
 ### 직접 구현한 기능 시현 영상 및 간단 설명
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
@@ -97,7 +101,7 @@ DM (1대1 대화방)
  <div>
   </br>
   메인 화면에서 관리자 등급만이 관리자(톱니바퀴) 아이콘이 노출되도록 하였습니다. </br>
-  관리자가 답변을 할 경우 바로 '답변 완료'로 db 상태값을 반경하였습니다. </br>
+  관리자가 답변을 할 경우 바로 '답변 완료'로 db 상태값을 변경하였습니다. </br>
   faq의 경우 + 버튼을 눌러 추가할 수 있으며 기존 faq를 삭제할 수도 있습니다. </br>
   </div>
 </details>
