@@ -11,7 +11,7 @@
 
 
 ### 사용한 기술
-Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS, 
+Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS 
 
 ### ERD
 <img src="https://github.com/gahuileeee/ilembo/assets/141610403/a78d87e1-4f03-4327-a17a-156332b4921e" width="600px">
