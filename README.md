@@ -8,7 +8,7 @@
  4) 주요기능 : 채팅, project 관리, 스케줄 관리, 게시판 기능
  5) 담당한 기능: 채팅, faq, (유저, 관리자) ,qna(유저, 관리자), 관리자 페이지 (게시판 관리, 유저 관리)
  6) 팀 구성 : 이가희 외 3인
-7) [프론트 깃헙 이동](https://github.com/gahuileeee/ilemboFront), [백엔드 깃헙 이동](https://github.com/gahuileeee/ilemboBack)
+7) [프론트 깃헙 (react) 이동](https://github.com/gahuileeee/ilemboFront), [백엔드 깃헙 (Spring boot) 이동](https://github.com/gahuileeee/ilemboBack)
 
 
 ### 사용한 기술
