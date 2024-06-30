@@ -58,7 +58,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS,
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 DM (1대1 대화방)
 
-    <details align="center">
+ <details align="center">
   <summary> 프라이빗한, 1대1 대화방 기능도 있습니다.</summary>
  <div>
   </br>
@@ -76,8 +76,7 @@ DM (1대1 대화방)
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 질문 + faq 
-
-    <details align="center">
+<details align="center">
   <summary>사용자 질문하기 (qna) 기능과 자주 묻는 질문(faq) 구현 하였습니다. </summary>
  <div>
   </br>
@@ -93,7 +92,7 @@ DM (1대1 대화방)
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 관리자: 질문 답변 및 faq 수정
-    <details align="center">
+  <details align="center">
   <summary> 관리자만이 할 수 있으며, 사용자 qna 및 faq를 관리할 수 있습니다. </summary>
  <div>
   </br>
