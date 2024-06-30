@@ -19,11 +19,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS,
   <details align="center">
   <summary> ✏️: 채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
  <div>
-    <ul>
-      <li>
- 추가설명
-      </li>
-    </ul>
+추가설명
   </div>
 </details>
 </p>
