@@ -17,7 +17,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS,
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
   <details align="center">
-  <summary> :scroll: 채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
+  <summary> ✏️: 채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
  <div>
     <ul>
       <li>
