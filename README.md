@@ -1,8 +1,31 @@
-#### ilembo
+# ilembo (일름보)
 
+
+### 프로젝트 개요
+ 1) 프로젝트 주제 : 사내 커뮤니티, 일름보 
+ 2) 프로젝트 기간 : 2024-04-15 ~ 2024-05-17
+ 3) 배경 및 목적 : 사내 커뮤니티를 개설해 보았습니다. 일정을 관리하고, project를 생성하고, 실시간 채팅 기능을 통해 업무의 효율화를 목적으로 합니다.
+ 4) 주요기능 : 채팅, project 관리, 스케줄 관리, 게시판 기능
+ 5) 팀 구성 : 이가희 외 4인
+
+
+### 사용한 기술
+Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS, 
+
+### 직접 구현한 기능 시현 영상 및 간단 설명
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
+  <details>
+  <summary> :scroll: 채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
+ <div>
+    <ul>
+      <li>
+ 추가설명
+      </li>
+    </ul>
+  </div>
+</details>
 </p>
 <p align="center"> 
 <img src="https://github.com/gahuileeee/ilembo/assets/141610403/54ce9a00-3694-4918-9fc4-275d0f467016"  width="600" height="400">
