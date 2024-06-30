@@ -14,7 +14,7 @@
 Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS, 
 
 ### ERD
-![image](https://github.com/gahuileeee/ilembo/assets/141610403/a78d87e1-4f03-4327-a17a-156332b4921e)
+<img src="https://github.com/gahuileeee/ilembo/assets/141610403/a78d87e1-4f03-4327-a17a-156332b4921e" width="300px">
 
 
 ### 직접 구현한 기능 시현 영상 및 간단 설명
