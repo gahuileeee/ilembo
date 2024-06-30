@@ -3,7 +3,8 @@
 
 
 <p align="center"> 
-  ### 채팅방 개설 기능
+  <p size="15" fontweight="bold" > 채팅방 개설 기능 </p>
+  
 <img src="https://github.com/gahuileeee/ilembo/assets/141610403/54ce9a00-3694-4918-9fc4-275d0f467016"  width="600" height="400">
 </p>
 
