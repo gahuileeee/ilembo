@@ -3,13 +3,13 @@
 
 ### 채팅방 개설 기능
 <p align="center"> 
-<img src="https://github.com/gahuileeee/ilembo/assets/141610403/54ce9a00-3694-4918-9fc4-275d0f467016"  width="500" height="400">
+<img src="https://github.com/gahuileeee/ilembo/assets/141610403/54ce9a00-3694-4918-9fc4-275d0f467016"  width="600" height="450">
 </p>
 
 
 ### 실시간 알람 및 파일 보내기
 <p align="center"> 
-<img src="https://github.com/gahuileeee/ilembo/assets/141610403/056ac682-5334-4ef0-8d4e-6e5edf9a04a5" width="500" height="400">
+<img src="https://github.com/gahuileeee/ilembo/assets/141610403/056ac682-5334-4ef0-8d4e-6e5edf9a04a5" width="600" height="450">
 </p>
 
 
