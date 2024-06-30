@@ -1,7 +1,7 @@
 #### ilembo
 
 
-<p align="center" style="font-size: 20px; font-weight: bold;">
+<p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
 </p>
 <p align="center"> 
@@ -9,9 +9,11 @@
 </p>
 
 
+<p align="center" style="font-size: 22px; font-weight: bolder;">
+실시간 알람 및 파일 보내기
+</p>
 
 <p align="center"> 
-  ### 실시간 알람 및 파일 보내기
 <img src="https://github.com/gahuileeee/ilembo/assets/141610403/056ac682-5334-4ef0-8d4e-6e5edf9a04a5" width="600" height="400">
 </p>
 
