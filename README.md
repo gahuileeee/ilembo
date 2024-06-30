@@ -20,7 +20,11 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS,
   <details align="center">
   <summary>  채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
  <div>
-추가설명
+다른 이들 초대 시, 입력값이 달라질 때마다 비동기 처리로 서버와 연동하여, 그 글자에 해당하는 유저 이메일 목록들을 모두 불러오도록 하였습니다. </br>
+또한 채팅 기능을 구현하기 위해 chatRoom, chatUser, chat table을 만들어 관리하였습니다.</br>
+:one: 채팅방을 만들면, 개설된 채팅방이 chatRoom에 저장됩니다.</br>
+:two: chatUser에 채팅방에 포함된 유저 정보와 chatRoom 정보가 저장됩니다. </br>
+:three: chat table에는 해당 채팅방에서 나눈 대화들이 저장됩니다. 
   </div>
 </details>
 </p>
