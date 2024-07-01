@@ -23,7 +23,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
   <details align="center">
-  <summary>  채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다. </summary>
+  <summary>  채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다.[click!] </summary>
  <div>
   </br>
 다른 이들 초대 시, 입력값이 달라질 때마다 비동기 처리로 서버와 연동하여, </br> 그 글자에 해당하는 유저 이메일 목록들을 모두 불러오도록 하였습니다. </br>
@@ -44,7 +44,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 실시간 알람 및 파일 보내기
 
    <details align="center">
-  <summary> 메인화면에서도 알람이 실시간으로 뜨며(종모양에 숫자가 변함), 실시간 파일도 보낼 수 있습니다. </summary>
+  <summary> 메인화면에서도 알람이 실시간으로 뜨며(종모양에 숫자가 변함), 실시간 파일도 보낼 수 있습니다. [click!] </summary>
  <div>
   </br>
   실시간 알람을 위해 모든 페이지에 socket을 참조하도록 하였습니다. </br>
@@ -64,7 +64,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 DM (1대1 대화방)
 
  <details align="center">
-  <summary> 프라이빗한, 1대1 대화방 기능도 있습니다.</summary>
+  <summary> 프라이빗한, 1대1 대화방 기능도 있습니다. [click!]</summary>
  <div>
   </br>
   사람 초대 기능 구현과 같이, 이메일을 통해 1대1 대화 기능을 구현하였습니다. </br>
@@ -82,7 +82,7 @@ DM (1대1 대화방)
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 질문 + faq 
 <details align="center">
-  <summary>사용자 질문하기 (qna) 기능과 자주 묻는 질문(faq) 구현 하였습니다. </summary>
+  <summary>사용자 질문하기 (qna) 기능과 자주 묻는 질문(faq) 구현 하였습니다. [click!]</summary>
  <div>
   </br>
   사용자가 질문하면 '답변전'상태로 db에 저장됩니다. </br>
@@ -98,7 +98,7 @@ DM (1대1 대화방)
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 관리자: 질문 답변 및 faq 수정
   <details align="center">
-  <summary> 관리자만이 할 수 있으며, 사용자 qna 및 faq를 관리할 수 있습니다. </summary>
+  <summary> 관리자만이 할 수 있으며, 사용자 qna 및 faq를 관리할 수 있습니다. [click!]</summary>
  <div>
   </br>
   메인 화면에서 관리자 등급만이 관리자(톱니바퀴) 아이콘이 노출되도록 하였습니다. </br>
@@ -114,7 +114,7 @@ DM (1대1 대화방)
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 게시판 신고
     <details align="center">
-  <summary> 악성 게시글 신고하기 기능입니다. </summary>
+  <summary> 악성 게시글 신고하기 기능입니다. [click!]</summary>
  <div>
   </br>
   악성 게시글을 본 경우 신고를 할 수 있습니다. </br>
@@ -130,7 +130,7 @@ DM (1대1 대화방)
 <p align="center" style="font-size: 22px; font-weight: bolder;">
 악성 유저 신고, 관리자 (게시판, 유저) 관리
     <details align="center">
-  <summary> 악성 유저도 신고가 가능하며, 관리자가 이를 관리(게시글 숨기기, 유저 정지하기)할 수 있습니다. </summary>
+  <summary> 악성 유저도 신고가 가능하며, 관리자가 이를 관리(게시글 숨기기, 유저 정지하기)할 수 있습니다.[click!] </summary>
  <div>
   </br>
   해당 유저/게시글을 누르면 신고 사유를 볼 수 있고 이에 따라 관리자가 제재를 결정할 수 있습니다. </br>
