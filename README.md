@@ -171,10 +171,9 @@ DM (1대1 대화방)
   let name = searchParams.get('name'); 이렇게 하여 url 쿼리 매개변수에서 name 의 값을 얻을 수 있습니다. <br>
   <br>
   
-  :five: useLocation :현재 url에 대한 정보에 접근하기 위한 hook입니다. 이 프로젝트의 경우, 프론트와 백을 다르게 설정했는데 프론트에서 백으로 axios로 요청 할 때, local 환경인지 서버 환경인지 구분하여 백으로의 요청 주소를 다르게 하기 위해 사용했습니다. 
+  :five: useLocation :현재 url에 대한 정보에 접근하기 위한 hook입니다. 
   <br>
 <br>
-
   :six: useNavigate : 자바스크립트의 window.location.href  와 비슷한 역할을 합니다. 이 프로젝트에서는 사용자가 로그인을 하지 않았는데 채팅으로 접속을 시도 할 경우 alert("로그인 후 사용해주세요.") 이후 useNavigate를 이용해 login 화면으로 이동시킬 때 사용하였습니다. <br>
   </div>
 </details>
@@ -198,8 +197,70 @@ DM (1대1 대화방)
 </br>
 ✏️ Socket 통신을 이해하게 되었습니다. 또한 파일 전송과 일반 문자 전송을 어떻게 구분할 지 생각하면서 사고력이 증가되었습니다. </br>
  그리고 실시간 알람을 모든 페이지에서 확인 할 수 있도록, socket을 생성하고, 이를 모든 페이지에 주입시켜 하나의 socket으로 여러 곳에서 사용가능 하도록 구현하는 법을 알 수 있었습니다. </br>
+     <details >
+  <summary> socket 통신 공부한 내용 및 구현 과정이 궁금하다면 클릭 해 주세요! [클릭]</summary>
+ <div>
+  </br>
+webSocket이란 서버와 클라이언트 간의 메시지 교환을 위한 통신규약을 말합니다. 양방향 통신이 가능하며, http와 다르게 지속적 연결을 수립하여 실시간 데이터 처리를 요하는 작업에 유용하게 쓰입니다. 
+  <p font-weight="bold"> 구현한 과정 </p>
+  :one: implementation 'org.springframework.boot:spring-boot-starter-websocket' 로 스프링에 의존성을 주입합니다. <br>
+  :two:  TextWebSocketHandler를 상속하는 SocketHandler class를 작성하여, 소켓 연결, 소켓 종료, 메시지 발송 메소드를 작성합니다.
+  :three: WebSocketConfigurer를 구현한 WebSocketConfig class를 작성합니다. 요청과 생성한 handler를 연결시켜 줍니다. <br>
+  :three: 프론트(react)에서 ws = new WebSocket("ws://요청 주소")로 소켓을 생성합니다. <br> 
+    <p font-weight="bold"> 소켓을 모든 페이지에 사용할 수 있도록 한 방법 </p>
+  우선 모든 페이지를 components화 시켜, Header도 컴포넌트화 시켰습니다.<br>
+  그런 다음 WebSocket을 생성하는 method를 만들고, 이를 header에서 사용해 websocket을 모든 페이지에서 사용 가능하도록 하였습니다. 
+    <details >
+  <summary>createWebSocket method 코드가 궁금하시다면 클릭해주세요! [클릭]</summary>
+ <div>
+  const createWebSocket = () => { <br>
+  const ws =  new WebSocket(`wss://api.illrreumbow.store/community/chattings`); <br>
+  ws.onopen = () => { <br>
+    console.log('WebSocket connection succeed');<br>
+  }; <br>
+  return ws; <br>
+}; <br>
+
+export default createWebSocket;
+  </div>
+</details>
+
+
+  </div>
+</details>
+
  </br>
 ✏️ 처음으로 back과 front를 다르게 관리하여 Restful API 통신에 대해 더 잘 이해하게 되었습니다. </br>
-  또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.
+  또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.<br>
+     <details >
+  <summary>back과 front 서버가 다를 때의 front에서 back으로 요청 주소 관리 요령 [클릭]</summary>
+ <div>
+사실 처음에는 무작정, axios.get("http://localhost:8080..."식으로 하드 코딩 했습니다. <br>
+그런데 그렇게 하니 배포를 할 때, 요청 주소가 localhost:8080으로 보내져 문제가 생겼고, 이를 해결하기 위해 완성된 api의 경우에만 http://배포된서버주소/ 로 요청을 보내도록 하였습니다. <br>
+하지만, 이 방법은 요청 주소를 바꾸는걸 잊거나 틀리게 타이핑하는 등의 상황으로 계속 문제가 생겼습니다. <br>
+  따라서 근본적으로 해결해야 함의 필요성을 깨닫고 다음과 같이 해결하였습니다. <br>
+  :one: .env 파일에 LOCAL과 개발 주소를 작성했습니다. (ex REACT_APP_BACKEND_URL_LOCAL=http://localhost:8080/community ,
+REACT_APP_BACKEND_URL_PROD=https://api.illrreumbow.store/community)<br>
+:two:  window.location.hostname를 이용해 현재 환경이 local인지 배포 서버 환경인지를 구분하고, 이에 따라 요청 주소를 다르게 할당하는 method를 생성했습니다.
+   <details >
+  <summary>코드가 궁금하다면 클릭 해 주세요 [클릭]</summary>
+ <div>
+  import React from 'react' <br>
+
+const isLocalhost = window.location.hostname === "localhost"; <br>
+const url = { <br>
+    backendUrl: isLocalhost <br>
+        ? process.env.REACT_APP_BACKEND_URL_LOCAL <br>
+        : process.env.REACT_APP_BACKEND_URL_PROD  <br>
+}; <br>
+
+
+export default url; <br>
+  </div>
+</details>
+:three: 이를 axios.get(`${url.backendUrl}/...`) 처럼 이용하여 간단하게 문제를 해결하였습니다.
+  </div>
+</details>
+  
 
   
