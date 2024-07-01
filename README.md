@@ -147,9 +147,30 @@ DM (1대1 대화방)
 ### 프로젝트를 통해 학습하게 된 내용
 ✏️ React의 여러 hook (useState, useEffect, useRef 등) 들을 직접 사용해보며 사용 목적과 사용 방법을 알게 되었습니다. </br>
     <details >
-  <summary> 학습한 react hook 내용 (사용 목적, 사용 방법)</summary>
+  <summary> 학습한 react hook 내용 (사용 목적, 사용 방법)  [클릭]</summary>
  <div>
-  :one: useState : 초기의 상태값을 정하기 위해 사용합니다. 이 프로젝트의 경우, 빈 객체에 원하는 형태의 dto로 담거나, 빈 배열을 담을 때 사용했습니다.
+  :one: useState : 컴포넌트의 상태값을 선언하고 관리하는 hook입니다. const [count, setCount] = useState(0); 식으로 초기 값을 0으로 선언할 수도 있고, const [list, setList] = useState([])로 빈 배열 형태로 선언할 수도 있습니다. 혹은 const [user, setUser ] = useState({uid:'', name:"", age:0}) 이렇게 원하는 빈 객체 값으로 선언할 수도 있습니다.
+  <br>
+  
+  :two: useEffect : 의존성 배열을 이용해, 상태값이 업데이트 될 때마다 실행할 수 있습니다. 
+  <div border="1px solid black">
+   useEffect(() => {
+    console.log("state name update...");
+  }, [name]);
+  </div>
+  이렇게 하면 name의 값이 변경될 때마다 console.log 가 실행됩니다. <br>
+  
+  :three: useRef : 컴포넌트에 참조값을 설정하고, 참조하기  위한 hook 입니다. <br>
+  const refUid =useRef(); 로 ref 를 생성하고 <input type="text" name="uid" ref={refUid}/> 이렇게 하면 입력한 값을 참조할 수 있습니다.  <br>
+  
+  :four: useSearchParams :스프링의 @requestParam 어노테이션처럼 url의 쿼리 매개변수에 접근할 때 사용합니다. <br>
+  예를 들어   let [searchParams, setSearchParams] = useSearchParams();
+  let name = searchParams.get('name'); 이렇게 하여 url 쿼리 매개변수에서 name 의 값을 얻을 수 있습니다. <br>
+  
+  :five: useLocation :현재 url에 대한 정보에 접근하기 위한 hook입니다. 이 프로젝트의 경우, 프론트와 백을 다르게 설정했는데 프론트에서 백으로 axios로 요청 할 때, local 환경인지 서버 환경인지 구분하여 백으로의 요청 주소를 다르게 하기 위해 사용했습니다. 
+  <br>
+
+  :six: useNavigate : 자바스크립트의 window.location.href  와 비슷한 역할을 합니다. 이 프로젝트에서는 사용자가 로그인을 하지 않았는데 채팅으로 접속을 시도 할 경우 alert("로그인 후 사용해주세요.") 이후 useNavigate를 이용해 login 화면으로 이동시킬 때 사용하였습니다. <br>
   </div>
 </details>
 </br>
