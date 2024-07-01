@@ -148,7 +148,7 @@ DM (1대1 대화방)
 ✏️ React의 여러 hook (useState, useEffect, useRef 등) 들을 직접 사용해보며 어떨 때 사용하고, 어떻게 쓰는지를 알게 되었습니다. </br>
 ✏️ DropZone에 대해 알게 되었습니다. 그리고 기존의 dropZone API를 사용해보며 api 사용 능력이 향상되었습니다. </br>
 ✏️ Socket 통신을 이해하게 되었습니다. 또한 파일 전송과 일반 문자 전송을 어떻게 구분할 지 생각하면서 사고력이 증가되었습니다. </br>
- <span margin-left="10px"></span>그리고 실시간 알람을 모든 페이지에서 확인 할 수 있도록, socket을 생성하고, 이를 모든 페이지에 주입시켜 하나의 socket으로 여러 곳에서 쓸 수 있도록 해 보았습니다. </br>
+ <span style="margin-left: 10px;"></span>그리고 실시간 알람을 모든 페이지에서 확인 할 수 있도록, socket을 생성하고, 이를 모든 페이지에 주입시켜 하나의 socket으로 여러 곳에서 쓸 수 있도록 해 보았습니다. </br>
 ✏️ 처음으로 back과 front를 다르게 관리하여 Restful API 통신에 대해 더 잘 이해하게 되었습니다. </br>
   또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 </br>
   back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.
