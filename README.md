@@ -146,6 +146,13 @@ DM (1대1 대화방)
 
 ### 프로젝트를 통해 학습하게 된 내용
 ✏️ React의 여러 hook (useState, useEffect, useRef 등) 들을 직접 사용해보며 어떨 때 사용하고, 어떻게 쓰는지를 알게 되었습니다. </br>
+    <details >
+  <summary> 학습한 react hook 내용</summary>
+ <div>
+  </br>
+  :one: useState : 초기의 상태값을 정하기 위해 사용합니다. 이 프로젝트의 경우, 빈 객체에 원하는 형태의 dto로 담거나, 빈 배열을 담을 때 사용했습니다.
+  </div>
+</details>
 </br>
 ✏️ DropZone에 대해 알게 되었습니다. 그리고 기존의 dropZone API를 사용해보며 api 사용 능력이 향상되었습니다. </br>
 </br>
@@ -153,7 +160,6 @@ DM (1대1 대화방)
  그리고 실시간 알람을 모든 페이지에서 확인 할 수 있도록, socket을 생성하고, 이를 모든 페이지에 주입시켜 하나의 socket으로 여러 곳에서 사용가능 하도록 구현하는 법을 알 수 있었습니다. </br>
  </br>
 ✏️ 처음으로 back과 front를 다르게 관리하여 Restful API 통신에 대해 더 잘 이해하게 되었습니다. </br>
-  또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 </br>
-  back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.
+  또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.
 
   
