@@ -149,7 +149,6 @@ DM (1대1 대화방)
     <details >
   <summary> 학습한 react hook 내용</summary>
  <div>
-  </br>
   :one: useState : 초기의 상태값을 정하기 위해 사용합니다. 이 프로젝트의 경우, 빈 객체에 원하는 형태의 dto로 담거나, 빈 배열을 담을 때 사용했습니다.
   </div>
 </details>
