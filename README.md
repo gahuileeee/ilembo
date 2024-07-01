@@ -145,9 +145,9 @@ DM (1대1 대화방)
 
 
 ### 프로젝트를 통해 학습하게 된 내용
-✏️ React의 여러 hook (useState, useEffect, useRef 등) 들을 직접 사용해보며 어떨 때 사용하고, 어떻게 쓰는지를 알게 되었습니다. </br>
+✏️ React의 여러 hook (useState, useEffect, useRef 등) 들을 직접 사용해보며 사용 목적과 사용 방법을 알게 되었습니다. </br>
     <details >
-  <summary> 학습한 react hook 내용</summary>
+  <summary> 학습한 react hook 내용 (사용 목적, 사용 방법)</summary>
  <div>
   :one: useState : 초기의 상태값을 정하기 위해 사용합니다. 이 프로젝트의 경우, 빈 객체에 원하는 형태의 dto로 담거나, 빈 배열을 담을 때 사용했습니다.
   </div>
