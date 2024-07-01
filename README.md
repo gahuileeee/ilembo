@@ -175,6 +175,7 @@ DM (1대1 대화방)
   <br>
 <br>
   :six: useNavigate : 자바스크립트의 window.location.href  와 비슷한 역할을 합니다. 이 프로젝트에서는 사용자가 로그인을 하지 않았는데 채팅으로 접속을 시도 할 경우 alert("로그인 후 사용해주세요.") 이후 useNavigate를 이용해 login 화면으로 이동시킬 때 사용하였습니다. <br>
+  <hr>
   </div>
 </details>
 </br>
@@ -191,12 +192,14 @@ DM (1대1 대화방)
   :three: 이후, 파일을 담을 빈 객체를 생성하였습니다. 그리고 파일이 업로드 되면 이곳에 저장하고, 썸네일을 띄워 전송 버튼을 누르면 back으로 파일 객체가 전송되도록 하였습니다.
   <br>
   :four: 삭제 기능을 구현하기 위해 x 버튼을 누르면, 파일 객체를 비우고, 썸네일 div에도 값을 null로 수정해, 삭제 기능을 완성하였습니다.
+  <hr>
   </div>
   </details>
 
 </br>
 ✏️ Socket 통신을 이해하게 되었습니다. 또한 파일 전송과 일반 문자 전송을 어떻게 구분할 지 생각하면서 사고력이 증가되었습니다. </br>
  그리고 실시간 알람을 모든 페이지에서 확인 할 수 있도록, socket을 생성하고, 이를 모든 페이지에 주입시켜 하나의 socket으로 여러 곳에서 사용가능 하도록 구현하는 법을 알 수 있었습니다. </br>
+ <br>
      <details >
   <summary> socket 통신 공부한 내용 및 구현 과정이 궁금하다면 클릭 해 주세요! [클릭]</summary>
  <div>
@@ -225,13 +228,14 @@ export default createWebSocket;
   </div>
 </details>
 
-
+<hr>
   </div>
 </details>
 
  </br>
 ✏️ 처음으로 back과 front를 다르게 관리하여 Restful API 통신에 대해 더 잘 이해하게 되었습니다. </br>
   또한, front에서 back으로 요청을 보낼 때, 현재 주소가 localhost...라면 back도 localhost..로 보내고, 아니라면 서버 back 주소로 보내는 method를 구현하여 back 과 front 서버가 다를 때의 요청 주소 관리 요령을 체득했습니다.<br>
+  <br>
      <details >
   <summary>back과 front 서버가 다를 때의 front에서 back으로 요청 주소 관리 요령 [클릭]</summary>
  <div>
