@@ -23,7 +23,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
   <details align="center">
-  <summary>  채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다.[click!] </summary>
+  <summary>  채팅방을 개설하고, 이메일을 통해 가입된 다른 이들을 초대할 수 있습니다.[클릭] </summary>
  <div>
   </br>
 다른 이들 초대 시, 입력값이 달라질 때마다 비동기 처리로 서버와 연동하여, </br> 그 글자에 해당하는 유저 이메일 목록들을 모두 불러오도록 하였습니다. </br>
@@ -44,7 +44,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 실시간 알람 및 파일 보내기
 
    <details align="center">
-  <summary> 메인화면에서도 알람이 실시간으로 뜨며(종모양에 숫자가 변함), 실시간 파일도 보낼 수 있습니다. [click!] </summary>
+  <summary> 메인화면에서도 알람이 실시간으로 뜨며(종모양에 숫자가 변함), 실시간 파일도 보낼 수 있습니다. [click] </summary>
  <div>
   </br>
   실시간 알람을 위해 모든 페이지에 socket을 참조하도록 하였습니다. </br>
@@ -64,7 +64,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 DM (1대1 대화방)
 
  <details align="center">
-  <summary> 프라이빗한, 1대1 대화방 기능도 있습니다. [click!]</summary>
+  <summary> 프라이빗한, 1대1 대화방 기능도 있습니다. [눌러요]</summary>
  <div>
   </br>
   사람 초대 기능 구현과 같이, 이메일을 통해 1대1 대화 기능을 구현하였습니다. </br>
