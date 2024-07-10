@@ -240,7 +240,7 @@ export default createWebSocket;
      <details >
   <summary>체득한 back과 front 서버가 다를 때의 front에서 back으로 요청 주소 관리 요령 [클릭]</summary>
  <div>
-사실 처음에는 무작정, axios.get("http://localhost:8080..."식으로 하드 코딩 했습니다. <br>
+ 프로젝트 초기에는 axios.get("http://localhost:8080..."식으로 하드 코딩 했습니다. <br>
 그런데 그렇게 하니 배포를 할 때, 요청 주소가 localhost:8080으로 보내져 문제가 생겼고, 이를 해결하기 위해 완성된 api의 경우에만 http://배포된서버주소/ 로 요청을 보내도록 하였습니다. <br>
 하지만, 이 방법은 요청 주소를 바꾸는걸 잊거나 틀리게 타이핑하는 등의 상황으로 계속 문제가 생겼습니다. <br>
   따라서 근본적으로 해결해야 함의 필요성을 깨닫고 다음과 같이 해결하였습니다. <br>
