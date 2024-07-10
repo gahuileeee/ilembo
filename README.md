@@ -19,6 +19,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 
 
 ### 제가 직접 구현한 기능에 대한 시현 영상 및 간단 설명
+*담당한 기능에 대해 ERD , Back, Front 모두 하였습니다. 
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
