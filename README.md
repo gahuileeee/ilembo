@@ -18,7 +18,7 @@ Spring Boot, Java, REACT, HTML5/CSS3/JavaScript, MyBaits, JPA, AWS
 <img src="https://github.com/gahuileeee/ilembo/assets/141610403/a78d87e1-4f03-4327-a17a-156332b4921e" width="600px">
 
 
-### 직접 구현한 기능 시현 영상 및 간단 설명
+### 제가 직접 구현한 기능 시현 영상 및 간단 설명
 
 <p align="center" style="font-size: 22px; font-weight: bolder;">
   채팅방 개설 기능
